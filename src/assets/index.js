@@ -22,6 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import gym from "./gym.png";
+import medical from "./medical.png";
 import voxlingo from "./voxlingo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +60,5 @@ export {
   voxlingo,
   gym,
   projecttracker,
+  medical,
 };

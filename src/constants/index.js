@@ -22,7 +22,8 @@ import {
     gym,
     voxlingo,
     threejs,
-    projecttracker
+    projecttracker,
+    medical,
   } from "../assets";
   
   export const navLinks = [
@@ -131,6 +132,27 @@ import {
 //   ];
   
   const projects = [
+    {
+      name: "MedEase",
+      description:
+        "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors",
+      tags: [
+        {
+          name: "Next,js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: medical,
+      source_code_link: "https://github.com/deepanshu-iitm/med-ease",
+    },
     {
       name: "Gym App",
       description:
