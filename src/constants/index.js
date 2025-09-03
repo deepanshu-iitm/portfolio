@@ -24,6 +24,9 @@ import {
     threejs,
     projecttracker,
     medical,
+    codearchaeologist,
+    ailegal,
+    autoresearcher,
   } from "../assets";
   
   export const navLinks = [
@@ -43,16 +46,20 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "AI Engineer",
+      icon: creator,
+    },
+    {
+      title: "Full-Stack Developer",
       icon: web,
     },
-    // {
-    //   title: "React Native Developer",
-    //   icon: mobile,
-    // },
     {
-      title: "Backend Developer",
+      title: "Machine Learning",
       icon: backend,
+    },
+    {
+      title: "Web Applications",
+      icon: mobile,
     },
   ];
   
@@ -98,6 +105,22 @@ import {
       icon: mongodb,
     },
     {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -132,6 +155,81 @@ import {
 //   ];
   
   const projects = [
+    {
+      name: "The Code Archaeologist",
+      description:
+        "AI-powered multi-language codebase analysis system using tree-sitter for AST parsing across 7+ programming languages. Features Neo4j knowledge graphs, GraphRAG query engine with Google Gemini for natural language to Cypher translation, and FastAPI web interface.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neo4j",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "GraphRAG",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codearchaeologist,
+      source_code_link: "https://github.com/deepanshu-iitm/code-archaeologist",
+    },
+    {
+      name: "AI Legal Review Agent",
+      description:
+        "AI-driven legal document assistant for analyzing contracts and compliance documents. Implements RAG pipeline with ChromaDB and SentenceTransformers, integrated with Google Gemini API for automated extraction of key legal terms and clauses.",
+      tags: [
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ChromaDB",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "RAG",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ailegal,
+      source_code_link: "https://github.com/deepanshu-iitm/ai-legal-review-agent",
+    },
+    {
+      name: "AutoResearcher Platform",
+      description:
+        "AI-powered research automation platform with scalable FastAPI backend for concurrent data collection and processing. Features RAG-ready pipeline with ChromaDB, multi-source ingestion from arXiv, Semantic Scholar, and Wikipedia, and automated report generation.",
+      tags: [
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ChromaDB",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: autoresearcher,
+      source_code_link: "https://github.com/deepanshu-iitm/AutoResearcher",
+    },
     {
       name: "MedEase",
       description:

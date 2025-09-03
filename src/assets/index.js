@@ -29,6 +29,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import projecttracker from "./projecttracker.png";
+import codearchaeologist from "./codearchaeologist.png";
+import ailegal from "./ailegal.png";
+import autoresearcher from "./autoresearcher.png";
 export {
   logo,
   backend,
@@ -61,4 +64,7 @@ export {
   gym,
   projecttracker,
   medical,
+  codearchaeologist,
+  ailegal,
+  autoresearcher,
 };

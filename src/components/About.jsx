@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript and TypeScript, specializing in modern frameworks like React, Next.js, Vue, and Flask. I excel at building scalable, efficient, and user-friendly solutions while collaborating closely with clients to bring their ideas to life. With a strong ability to learn quickly and adapt to new technologies, I strive to develop high-quality applications that solve real-world problems.
+        I'm a passionate AI Engineer and Full-Stack Developer who specializes in building intelligent applications that solve complex problems. I have extensive experience in machine learning, natural language processing, and creating AI-powered systems with frameworks like Python, FastAPI, and React. My expertise spans from developing smart algorithms to building scalable web applications using modern technologies like JavaScript, TypeScript, Next.js, and Flask. I excel at creating efficient, user-friendly solutions that bridge cutting-edge AI capabilities with practical, real-world applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
