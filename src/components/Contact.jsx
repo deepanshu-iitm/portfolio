@@ -49,4 +49,4 @@ const Profiles = () => {
   );
 };
 
-export default SectionWrapper(Profiles, "profiles");
+export default SectionWrapper(Profiles, "contact");

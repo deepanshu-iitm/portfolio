@@ -8,6 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import flask from "./tech/flask.png";
 import postgreSQL from "./tech/postgreSQL.png";
+import python from "./tech/python.png";
+import fastapi from "./tech/fastapi.png";
+import pytorch from "./tech/pytorch.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,14 +27,11 @@ import threejs from "./tech/threejs.svg";
 import gym from "./gym.png";
 import medical from "./medical.png";
 import voxlingo from "./voxlingo.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import projecttracker from "./projecttracker.png";
 import codearchaeologist from "./codearchaeologist.png";
 import ailegal from "./ailegal.png";
 import autoresearcher from "./autoresearcher.png";
+
 export {
   logo,
   backend,
@@ -54,12 +54,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   flask,
   postgreSQL,
+  python,
+  fastapi,
+  pytorch,
   voxlingo,
   gym,
   projecttracker,
