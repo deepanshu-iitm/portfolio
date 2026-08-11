@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
       <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -45,7 +45,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a passionate AI Engineer and Full-Stack Developer who specializes in building intelligent applications that solve complex problems. I have extensive experience in machine learning, natural language processing, and creating AI-powered systems with frameworks like Python, FastAPI, and React. My expertise spans from developing smart algorithms to building scalable web applications using modern technologies like JavaScript, TypeScript, Next.js, and Flask. I excel at creating efficient, user-friendly solutions that bridge cutting-edge AI capabilities with practical, real-world applications.
+        I'm a Backend, AI, and ML Engineer who builds intelligent systems end to
+        end—from model pipelines to the APIs that serve them. I work mainly with
+        Python, FastAPI, and databases, and care about systems that are
+        reliable, scalable, and actually useful in production.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
